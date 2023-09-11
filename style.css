@@ -1,0 +1,81 @@
+<style>
+  body {
+  
+     text-align: center;
+    display: flex;
+    flex-direction: column; /* Стовпчиковий напрямок для цілого документа */
+    align-items: center; /* Горизонтальне вирівнювання по центру */
+    background-image: url('C:\\Users\\Mrkit\\OneDrive\\Рабочий стол\\HTML\\evangelion-ia5qgwb2kaalx8lm.jpg'); /* Шлях до вашого фонового зображення */
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; /* Розміщуємо фон по центру */
+  background-attachment: fixed;
+  }
+  h1 {
+    color: white;
+	font-size: 15px;
+  }
+  h2 {
+    color: blue;
+  }
+   h3 {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: underline;
+	  font-family: Bandera Pro Heavy;
+    }
+	h4 {
+      color: white;
+      font-size: 26px;
+      font-weight: bold;
+      text-decoration: underline;
+	  font-family: Bandera Pro Heavy;
+    }
+	p {
+      color: white;
+	  font-family: Bandera Pro;
+    }
+	ul li a {
+      color: white; /* Змінити колір тексту на червоний */
+	  font-family: Bandera Pro;
+    }
+	 footer {
+      color: white; /* Змінити колір тексту на білий */
+      text-align: center;
+      font-family: Bandera Pro;
+    }
+  header {
+    width: 100%; /* Ширина заголовка на всю ширину */
+  }
+  .content {
+    display: flex;
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    align-items: flex-start; /* Вертикальне вирівнювання до верху */
+  }
+  aside-container {
+    display: flex;
+    flex-direction: column; /* Стовпчиковий напрямок для бокового контейнера */
+    align-items: flex-start; /* Вертикальне вирівнювання до верху для бокового контейнера */
+    width: 25%; /* Задаємо ширину блоку aside */
+  }
+  aside {
+    background-color: lightgray;
+    padding: 10px;
+    order: -1; /* Змінюємо порядок, щоб aside був максимально зліва */
+  }
+  section {
+    flex: 1; /* Розширюється, щоб займати доступний вільний простір */
+  }
+  footer {
+    width: 100%; /* Ширина підвалу на всю ширину */
+  }
+  /* Стилі для прямокутничків */
+  .rectangle {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+	background-color: rgba(0,0, 0, 0.5);
+	
+  }
+</style>
